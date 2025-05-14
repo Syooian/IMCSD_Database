@@ -27,3 +27,37 @@ select top 10 with ties 訂單號碼, round(sum(單價*數量*(1-折扣)), 0) as 訂單總額 
 select 客戶編號, count(*) 下單次數 from 訂貨主檔 group by 客戶編號
 --每一位客戶下單次數(一下單次數降冪排序)
 select 客戶編號, count(*) 下單次數 from 訂貨主檔 group by 客戶編號 order by 下單次數 desc
+
+--哪些客下單超過十次
+--having：與where相同，但僅限group by時搭配使用
+select 客戶編號, count(*) 下單次數 from 訂貨主檔 group by 客戶編號 having count(*) > 10 order by 下單次數 desc
+
+--統計每位員工處理訂單次數
+--select * from 訂貨主檔
+select 員工編號, count(*) 處理次數 from 訂貨主檔 group by 員工編號 order by 員工編號
+
+--統計每位員工處理每位客戶的訂單次數
+select 員工編號, 客戶編號, count(*) 處理次數 from 訂貨主檔 group by 員工編號, 客戶編號 order by 員工編號
+
+--找出前10名的銷售熱門商品(量最多)
+--select * from 訂貨明細
+select top 10 with ties 產品編號, sum(數量) 銷售量 from 訂貨明細 group by 產品編號 order by 銷售量 desc
+
+--找出前10名的銷售熱門商品(營業額最多)
+select top 10 with ties 產品編號, round(sum(數量*單價*(1-折扣)), 0) 總營業額 from 訂貨明細 group by 產品編號 order by 總營業額 desc
+
+--撰寫順序
+--select
+--from
+--where
+--group by
+--having
+--order by
+
+--執行順序
+--from 
+--where
+--group by
+--having
+--select
+--order by
