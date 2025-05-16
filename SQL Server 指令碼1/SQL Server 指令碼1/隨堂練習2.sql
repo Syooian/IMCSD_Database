@@ -5,8 +5,10 @@ select * from ­û¤u where ºÙ©I = '¤p©j'
 select * from ­û¤u where year(¥X¥Í¤é´Á) >= 1968
 
 --¦b¡i­q³f¥DÀÉ¡j¸ê®Æªí§ä¥X°e³fªº«°¥«¬°¥x¥_¥«¤Î°ª¶¯¥«ªº¸ê®Æ°O¿ý¡C 
---select * from ­q³f¥DÀÉ where °e³f¦a§} like '[¥x¥_°ª¶¯]%'
-select * from ­q³f¥DÀÉ where °e³f¦a§} like '¥x¥_¥«%' or °e³f¦a§} like '°ª¶¯¥«%'
+--select * from ­q³f¥DÀÉ where °e³f¦a§} like '[¥x¥_°ª¶¯]%' --X¡A¦¹¤èªk­­©w¤@­Ó¦r
+select * from ­q³f¥DÀÉ where °e³f¦a§} like '¥x¥_¥«%' or °e³f¦a§} like '°ª¶¯¥«%' --O
+select * from ­q³f¥DÀÉ where °e³f¦a§} like '%¥x%¥_%¥«%' or °e³f¦a§} like '%»O%¥_%¥«%' or °e³f¦a§} like '%°ª%¶¯%¥«%' --O
+select * from ­q³f¥DÀÉ where °e³f¦a§} in ('¥x¥_¥«', '»O¥_¥«', '°ª¶¯¥«') --¦h­Ó­È®É¨Ï¥Î¡A¦ý¤£¥i¥Î¼Ò½k¬d¸ß
 
 --¦b¡i²£«~¸ê®Æ¡j¸ê®Æªí¤¤§ä¥X®w¦s¶q³Ì¦hªº«e6¦W¸ê®Æ°O¿ý¡C 
 select top 6 with ties * from ²£«~¸ê®Æ order by ®w¦s¶q desc
@@ -27,7 +29,8 @@ select * from ²£«~¸ê®Æ where ®w¦s¶q < ¦w¥þ¦s¶q and ¤w­qÁÊ¶q = 0
 select * from «È¤á where ¤½¥q¦WºÙ like '%[¤t¥Í±¶¤Ñ¤¤ªÀ§÷·~¥ß]%'
 
 --¦b¾A·íªº¸ê®Æªí¤¤§ä¥X­qÁÊ²£«~¼Æ¶q¤¶©ó20~30¥óªº¸ê®Æ°O¿ý¡C 
-select ­q³æ¸¹½X, sum(¼Æ¶q) Total from ­q³f©ú²Ó group by ­q³æ¸¹½X having sum(¼Æ¶q) between 20 and 30
+select ­q³æ¸¹½X, sum(¼Æ¶q) Total from ­q³f©ú²Ó group by ­q³æ¸¹½X having sum(¼Æ¶q) between 20 and 30 --?
+select * from ­q³f©ú²Ó where ¼Æ¶q between 20 and 30 --O
 
 --¦b¡i­q³f¥DÀÉ¡j¸ê®Æªí¤¤§ä¥X©|¥¼¦³°e³f¤é´Áªº°O¿ý¸ê®Æ¡C 
 select * from ­q³f¥DÀÉ where °e³f¤é´Á is null
@@ -45,4 +48,4 @@ select ¨ÑÀ³°Ó½s¸¹, count(²£«~½s¸¹) ´£¨Ñ²£«~¼Æ¶q from ²£«~¸ê®Æ group by ¨ÑÀ³°Ó½s¸
 select «È¤á½s¸¹, ­û¤u½s¸¹, count(­û¤u½s¸¹) as ³QªA°È¦¸¼Æ from ­q³f¥DÀÉ group by «È¤á½s¸¹, ­û¤u½s¸¹ order by «È¤á½s¸¹
 
 --§Q¥Î¡i­q³f©ú²Ó¡j¸ê®Æªí¸ê®Æ¡A²Î­p¥X¦U¶µ°Ó«~ªº¥­§¡³æ»ù»P¥­§¡¾P°â¼Æ¶q¡A¨Ã¶È¦C¥X¥­§¡¾P°â¼Æ¶q¤j©ó10ªº¸ê®Æ¡A¥B±N¸ê®Æ¨Ì²£«~½s¸¹¥Ñ¤p¨ì¤j±Æ§Ç¡C
-select ²£«~½s¸¹, avg(³æ»ù) as ¥­§¡³æ»ù, avg(¼Æ¶q) as ¥­§¡¾P°â¼Æ¶q from ­q³f©ú²Ó group by ²£«~½s¸¹ having avg(¼Æ¶q) >= 10 order by ²£«~½s¸¹
+select ²£«~½s¸¹, avg(³æ»ù) as ¥­§¡³æ»ù, avg(¼Æ¶q) as ¥­§¡¾P°â¼Æ¶q from ­q³f©ú²Ó group by ²£«~½s¸¹ having avg(¼Æ¶q) > 10 order by ²£«~½s¸¹
