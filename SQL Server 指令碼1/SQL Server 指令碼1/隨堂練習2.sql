@@ -27,16 +27,22 @@ select * from 產品資料 where 庫存量 < 安全存量 and 已訂購量 = 0
 select * from 客戶 where 公司名稱 like '%[川生捷天中社材業立]%'
 
 --在適當的資料表中找出訂購產品數量介於20~30件的資料記錄。 
-select 訂單號碼, sum(數量) Total from 訂貨明細 group by 訂單號碼
-select * from 訂貨明細 group by 訂單號碼
-select * from 訂貨明細 group by 訂單號碼 having sum(數量) between 20 and 30
+select 訂單號碼, sum(數量) Total from 訂貨明細 group by 訂單號碼 having sum(數量) between 20 and 30
 
 --在【訂貨主檔】資料表中找出尚未有送貨日期的記錄資料。 
+select * from 訂貨主檔 where 送貨日期 is null
 
 --在【訂貨明細】資料表中顯示出訂單號碼10263所有產品的價格小計。 
+--select * from 訂貨明細 where 訂單號碼 = 10263
+select 產品編號, 單價, 數量, 折扣, (單價*數量*(1-折扣)) 小計 from 訂貨明細 where 訂單號碼 = 10263
 
 --利用【產品資料】資料表資料，統計出每一個供應商各提供了幾樣產品。 
+--select * from 產品資料 order by 供應商編號
+select 供應商編號, count(產品編號) 提供產品數量 from 產品資料 group by 供應商編號
 
 --利用【訂貨主檔】資料表資料，統計出每一位客戶被每一位員工所服務次數。 
+--select * from 訂貨主檔 order by 客戶編號
+select 客戶編號, 員工編號, count(員工編號) as 被服務次數 from 訂貨主檔 group by 客戶編號, 員工編號 order by 客戶編號
 
 --利用【訂貨明細】資料表資料，統計出各項商品的平均單價與平均銷售數量，並僅列出平均銷售數量大於10的資料，且將資料依產品編號由小到大排序。
+select 產品編號, avg(單價) as 平均單價, avg(數量) as 平均銷售數量 from 訂貨明細 group by 產品編號 having avg(數量) >= 10 order by 產品編號
