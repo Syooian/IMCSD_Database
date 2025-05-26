@@ -64,11 +64,17 @@
           <AssociatedConnUserName />
           <FullPath>SQLQuery7.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery8_Join.sql">
+        <FileNode Name="SQLQuery8_InnerJoin.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery8_Join.sql</FullPath>
+          <FullPath>SQLQuery8_InnerJoin.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery9_InnerJoin.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery9_InnerJoin.sql</FullPath>
         </FileNode>
         <FileNode Name="隨堂練習2.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>

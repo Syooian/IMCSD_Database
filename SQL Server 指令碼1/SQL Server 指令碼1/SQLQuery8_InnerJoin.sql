@@ -1,3 +1,5 @@
+--Inner Join：內部合併
+
 select * from 訂貨明細 OD inner join 產品資料 P on OD.產品編號 = P.產品編號
 
 --商業邏輯：定價>=售價=>進價
