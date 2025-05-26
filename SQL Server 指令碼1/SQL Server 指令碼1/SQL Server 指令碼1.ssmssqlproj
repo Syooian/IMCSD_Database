@@ -22,11 +22,53 @@
     </LogicalFolder>
     <LogicalFolder Name="查詢" Type="0" Sorted="true">
       <Items>
-        <FileNode Name="SQLQuery1.sql">
+        <FileNode Name="SQLQuery01.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery1.sql</FullPath>
+          <FullPath>SQLQuery01.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery02.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery02.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery03_資料篩選.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery03_資料篩選.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery04.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery04.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery05_資料統計.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery05_資料統計.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery06_GroupBy.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery06_GroupBy.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery08_InnerJoin.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery08_InnerJoin.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery09_InnerJoin.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery09_InnerJoin.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery10.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
@@ -34,53 +76,11 @@
           <AssociatedConnUserName />
           <FullPath>SQLQuery10.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery2.sql">
+        <FileNode Name="SQLQuery11_OuterJoin.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery2.sql</FullPath>
-        </FileNode>
-        <FileNode Name="SQLQuery3_資料篩選.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>SQLQuery3_資料篩選.sql</FullPath>
-        </FileNode>
-        <FileNode Name="SQLQuery4.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>SQLQuery4.sql</FullPath>
-        </FileNode>
-        <FileNode Name="SQLQuery5_資料統計.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>SQLQuery5_資料統計.sql</FullPath>
-        </FileNode>
-        <FileNode Name="SQLQuery6_GroupBy.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>SQLQuery6_GroupBy.sql</FullPath>
-        </FileNode>
-        <FileNode Name="SQLQuery7.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>SQLQuery7.sql</FullPath>
-        </FileNode>
-        <FileNode Name="SQLQuery8_InnerJoin.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>SQLQuery8_InnerJoin.sql</FullPath>
-        </FileNode>
-        <FileNode Name="SQLQuery9_InnerJoin.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>SQLQuery9_InnerJoin.sql</FullPath>
+          <FullPath>SQLQuery11_OuterJoin.sql</FullPath>
         </FileNode>
         <FileNode Name="隨堂練習2.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
