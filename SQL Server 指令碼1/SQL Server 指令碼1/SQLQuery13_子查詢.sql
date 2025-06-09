@@ -27,7 +27,7 @@ select P1.產品編號, P1.產品, P1.單價 from 產品資料 P1 cross join 產品資料 P2 gro
 
 ----------------------------------------------------------------------哪些客戶買過豬肉 (子查詢)
 --主查詢
-select 連絡人 買過豬肉的客戶 from 客戶 C join
+select distinct 連絡人 買過豬肉的客戶 from 客戶 C join
 	(select D.客戶編號 from 訂貨主檔 D join 
 		(select 訂單號碼 from 訂貨明細 where 產品編號 = (select 產品編號 from 產品資料 where 產品 = '豬肉')) A on D.訂單號碼 = A.訂單號碼) B on C.客戶編號 = B.客戶編號
 
