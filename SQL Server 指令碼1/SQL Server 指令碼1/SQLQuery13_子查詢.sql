@@ -42,3 +42,9 @@ select * from 訂貨主檔 D join
 --有豬肉的訂單號碼
 select 訂單號碼 from 訂貨明細 where 產品編號 = (select 產品編號 from 產品資料 where 產品 = '豬肉')
 ----------------------------------------------------------------------
+
+--exists運算
+--資本上只用於子查詢，用在比較兩個資料集合的資料是否相互存在
+--查詢哪些客戶下過訂單
+select * from 客戶 C where exists 
+	(select * from 訂貨主檔 O where C.客戶編號 = O.客戶編號)

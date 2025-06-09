@@ -120,3 +120,12 @@ where 客戶編號 in (select 客戶編號 from 客戶
 where 公司名稱='正人資源'))
 
 
+--exists運算子(基本上只用在子查詢)
+--比較兩個資料集合資料是否相互存在
+--查詢哪些客戶下過訂單
+select * from 客戶 as c
+where exists
+(select * from 訂貨主檔 as o where c.客戶編號=o.客戶編號)
+
+
+
