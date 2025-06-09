@@ -18,6 +18,21 @@
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
           <ApplicationName>Microsoft SQL Server Management Studio - 查詢</ApplicationName>
         </ConnectionNode>
+        <ConnectionNode Name="C501A117:Syooian">
+          <Created>2025-06-09T13:38:02.8425512+08:00</Created>
+          <Type>SQL</Type>
+          <Server>C501A117</Server>
+          <UserName>Syooian</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>北風</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <TrustServerCertificate>True</TrustServerCertificate>
+          <HostNameInServerCertificate />
+          <EncryptionOption>True</EncryptionOption>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - 查詢</ApplicationName>
+        </ConnectionNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="查詢" Type="0" Sorted="true">
@@ -93,6 +108,12 @@
           <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>12DataType.sql</FullPath>
+        </FileNode>
+        <FileNode Name="13Select_SubQuery.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:False:Syooian</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnUserName>Syooian</AssociatedConnUserName>
+          <FullPath>13Select_SubQuery.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

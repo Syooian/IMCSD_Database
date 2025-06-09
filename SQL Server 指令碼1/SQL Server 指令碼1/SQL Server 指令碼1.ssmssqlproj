@@ -18,6 +18,21 @@
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
           <ApplicationName>Microsoft SQL Server Management Studio - 查詢</ApplicationName>
         </ConnectionNode>
+        <ConnectionNode Name="C501A117:Syooian">
+          <Created>2025-06-09T13:29:42.9881049+08:00</Created>
+          <Type>SQL</Type>
+          <Server>C501A117</Server>
+          <UserName>Syooian</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>dbStudents</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <TrustServerCertificate>True</TrustServerCertificate>
+          <HostNameInServerCertificate />
+          <EncryptionOption>True</EncryptionOption>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - 查詢</ApplicationName>
+        </ConnectionNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="查詢" Type="0" Sorted="true">
@@ -87,6 +102,12 @@
           <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SQLQuery12_DataType.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery13_子查詢.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:False:Syooian</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnUserName>Syooian</AssociatedConnUserName>
+          <FullPath>SQLQuery13_子查詢.sql</FullPath>
         </FileNode>
         <FileNode Name="隨堂練習2.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
