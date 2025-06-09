@@ -106,4 +106,11 @@ select 產品編號 from 產品資料
 where 產品='豬肉')))
 
 
+select c.* from 客戶 as c 
+ inner join  訂貨主檔 as o on c.客戶編號= o.客戶編號
+ inner join  訂貨明細 as od on o.訂單號碼=od.訂單號碼
+ inner join  產品資料 as p on od.產品編號=p.產品編號
+where p.產品='豬肉'
+
+
 
