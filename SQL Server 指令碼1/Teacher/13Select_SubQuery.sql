@@ -113,4 +113,10 @@ select distinct c.* from 客戶 as c
 where p.產品='豬肉'
 
 
+--哪些員工處理過客戶名稱為「正人資源」的訂單
+select * from 員工
+where 員工編號 in (select distinct 員工編號 from 訂貨主檔
+where 客戶編號 in (select 客戶編號 from 客戶
+where 公司名稱='正人資源'))
+
 
