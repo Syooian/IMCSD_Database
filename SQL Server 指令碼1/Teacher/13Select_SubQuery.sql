@@ -44,3 +44,49 @@ select o.*
 from 訂貨主檔 as o inner join 客戶 as c
 on o.客戶編號=c.客戶編號
 where c.公司名稱='大華城台北'
+
+------------------------------------------------------------------
+--請查詢哪些商品的單價大於全部商品的平均單價
+select avg(單價)
+from 產品資料
+
+select *
+from 產品資料
+where 單價>28.8663
+
+
+select *
+from 產品資料
+where 單價>(select avg(單價)
+from 產品資料)
+
+
+--合併查詢的寫法
+--自我合併
+
+select *
+from 產品資料 as p inner join 產品資料 as p2
+on p.產品編號!=p2.產品編號
+
+
+select p.產品編號, p.產品,p.單價
+from 產品資料 as p inner join 產品資料 as p2
+on p.產品編號!=p2.產品編號
+group by p.產品編號, p.產品,p.單價
+having p.單價>avg(p2.單價)
+
+select p.產品編號, p.產品,p.單價
+from 產品資料 as p , 產品資料 as p2
+group by p.產品編號, p.產品,p.單價
+having p.單價>avg(p2.單價)
+
+--cross join(做卡氏積運算)
+select p.產品編號, p.產品,p.單價
+from 產品資料 as p cross join 產品資料 as p2
+group by p.產品編號, p.產品,p.單價
+having p.單價>avg(p2.單價)
+
+
+
+
+
