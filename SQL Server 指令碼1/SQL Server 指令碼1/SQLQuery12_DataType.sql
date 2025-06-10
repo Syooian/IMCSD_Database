@@ -1,18 +1,18 @@
---¸ê®Æ«¬ºA»PÂà´«
+ï»¿--è³‡æ–™å‹æ…‹èˆ‡è½‰æ›
 
---§ä¥X¨C­ÓÃş§O¦³´XºØ²£«~
---cast(¸ê®Æ as «¬§O)
-select t.Ãş§O½s¸¹, t.Ãş§O¦WºÙ, count(*) from ²£«~¸ê®Æ p inner join ²£«~Ãş§O t on p.Ãş§O½s¸¹ = t.Ãş§O½s¸¹ group by t.Ãş§O½s¸¹, t.Ãş§O¦WºÙ
-select t.Ãş§O½s¸¹, t.Ãş§O¦WºÙ, cast(count(*) as varchar)+'ºØ' from ²£«~¸ê®Æ p inner join ²£«~Ãş§O t on p.Ãş§O½s¸¹ = t.Ãş§O½s¸¹ group by t.Ãş§O½s¸¹, t.Ãş§O¦WºÙ
+--æ‰¾å‡ºæ¯å€‹é¡åˆ¥æœ‰å¹¾ç¨®ç”¢å“
+--cast(è³‡æ–™ as å‹åˆ¥)
+select t.é¡åˆ¥ç·¨è™Ÿ, t.é¡åˆ¥åç¨±, count(*) from ç”¢å“è³‡æ–™ p inner join ç”¢å“é¡åˆ¥ t on p.é¡åˆ¥ç·¨è™Ÿ = t.é¡åˆ¥ç·¨è™Ÿ group by t.é¡åˆ¥ç·¨è™Ÿ, t.é¡åˆ¥åç¨±
+select t.é¡åˆ¥ç·¨è™Ÿ, t.é¡åˆ¥åç¨±, cast(count(*) as varchar)+'ç¨®' from ç”¢å“è³‡æ–™ p inner join ç”¢å“é¡åˆ¥ t on p.é¡åˆ¥ç·¨è™Ÿ = t.é¡åˆ¥ç·¨è™Ÿ group by t.é¡åˆ¥ç·¨è™Ÿ, t.é¡åˆ¥åç¨±
 
---®æ¦¡°İÃD
-select iif(°e³f¤é´Á is null, '©|¥¼¥X³f', cast(°e³f¤é´Á as varchar)) °e³f¤é´Á from ­q³f¥DÀÉ
-select iif(°e³f¤é´Á is null, '©|¥¼¥X³f', convert(varchar, °e³f¤é´Á, 23)) °e³f¤é´Á from ­q³f¥DÀÉ
+--æ ¼å¼å•é¡Œ
+select iif(é€è²¨æ—¥æœŸ is null, 'å°šæœªå‡ºè²¨', cast(é€è²¨æ—¥æœŸ as varchar)) é€è²¨æ—¥æœŸ from è¨‚è²¨ä¸»æª”
+select iif(é€è²¨æ—¥æœŸ is null, 'å°šæœªå‡ºè²¨', convert(varchar, é€è²¨æ—¥æœŸ, 23)) é€è²¨æ—¥æœŸ from è¨‚è²¨ä¸»æª”
 
-select convert(varchar, ­q³æ¤é´Á, 23) as ­q³æ¤é´Á from ­q³f¥DÀÉ
+select convert(varchar, è¨‚å–®æ—¥æœŸ, 23) as è¨‚å–®æ—¥æœŸ from è¨‚è²¨ä¸»æª”
 
---¨C¤Ñªº­q³æ¼Æ¶q
-select convert(varchar, ­q³æ¤é´Á, 23) as ­q³æ¤é´Á, count(*) ­q³æ¼Æ¶q from ­q³f¥DÀÉ group by ­q³æ¤é´Á
+--æ¯å¤©çš„è¨‚å–®æ•¸é‡
+select convert(varchar, è¨‚å–®æ—¥æœŸ, 23) as è¨‚å–®æ—¥æœŸ, count(*) è¨‚å–®æ•¸é‡ from è¨‚è²¨ä¸»æª” group by è¨‚å–®æ—¥æœŸ
 
---isnull()¨ç¼Æ
-select isnull(convert(varchar, °e³f¤é´Á, 23), '©|¥¼¥X³f') °e³f¤é´Á from ­q³f¥DÀÉ
+--isnull()å‡½æ•¸
+select isnull(convert(varchar, é€è²¨æ—¥æœŸ, 23), 'å°šæœªå‡ºè²¨') é€è²¨æ—¥æœŸ from è¨‚è²¨ä¸»æª”
