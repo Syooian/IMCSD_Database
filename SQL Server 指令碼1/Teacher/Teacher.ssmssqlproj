@@ -110,10 +110,16 @@
           <FullPath>12DataType.sql</FullPath>
         </FileNode>
         <FileNode Name="13Select_SubQuery.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:False:Syooian</AssociatedConnectionMoniker>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
-          <AssociatedConnUserName>Syooian</AssociatedConnUserName>
+          <AssociatedConnUserName />
           <FullPath>13Select_SubQuery.sql</FullPath>
+        </FileNode>
+        <FileNode Name="14Select+order_by.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>14Select+order_by.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
