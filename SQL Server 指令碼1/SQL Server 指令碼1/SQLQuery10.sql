@@ -1,10 +1,10 @@
---¤U¦Cselect¥þ³¡¿ï¨ú«á¥kÁä->¦b½s¿è¾¹¤¤³]­p¬d¸ß
-SELECT          ²£«~¸ê®Æ.²£«~½s¸¹, ²£«~Ãþ§O.»¡©ú, ²£«~Ãþ§O.Ãþ§O¦WºÙ, ­û¤u.­û¤u½s¸¹, ­q³f¥DÀÉ.«È¤á½s¸¹, «È¤á.³sµ¸¤H
-FROM              ­q³f¥DÀÉ INNER JOIN
-                            «È¤á ON ­q³f¥DÀÉ.«È¤á½s¸¹ = «È¤á.«È¤á½s¸¹ INNER JOIN
-                            ­q³f©ú²Ó ON ­q³f¥DÀÉ.­q³æ¸¹½X = ­q³f©ú²Ó.­q³æ¸¹½X INNER JOIN
-                            ­û¤u ON ­q³f¥DÀÉ.­û¤u½s¸¹ = ­û¤u.­û¤u½s¸¹ INNER JOIN
-                            ²£«~¸ê®Æ ON ­q³f©ú²Ó.²£«~½s¸¹ = ²£«~¸ê®Æ.²£«~½s¸¹ INNER JOIN
-                            ¨ÑÀ³°Ó ON ²£«~¸ê®Æ.¨ÑÀ³°Ó½s¸¹ = ¨ÑÀ³°Ó.¨ÑÀ³°Ó½s¸¹ INNER JOIN
-                            ²£«~Ãþ§O ON ²£«~¸ê®Æ.Ãþ§O½s¸¹ = ²£«~Ãþ§O.Ãþ§O½s¸¹ INNER JOIN
-                            ³f¹B¤½¥q ON ­q³f¥DÀÉ.°e³f¤è¦¡ = ³f¹B¤½¥q.³f¹B¤½¥q½s¸¹
+ï»¿--ä¸‹åˆ—selectå…¨éƒ¨é¸å–å¾Œå³éµ->åœ¨ç·¨è¼¯å™¨ä¸­è¨­è¨ˆæŸ¥è©¢
+SELECT          ç”¢å“è³‡æ–™.ç”¢å“ç·¨è™Ÿ, ç”¢å“é¡žåˆ¥.èªªæ˜Ž, ç”¢å“é¡žåˆ¥.é¡žåˆ¥åç¨±, å“¡å·¥.å“¡å·¥ç·¨è™Ÿ, è¨‚è²¨ä¸»æª”.å®¢æˆ¶ç·¨è™Ÿ, å®¢æˆ¶.é€£çµ¡äºº
+FROM              è¨‚è²¨ä¸»æª” INNER JOIN
+                            å®¢æˆ¶ ON è¨‚è²¨ä¸»æª”.å®¢æˆ¶ç·¨è™Ÿ = å®¢æˆ¶.å®¢æˆ¶ç·¨è™Ÿ INNER JOIN
+                            è¨‚è²¨æ˜Žç´° ON è¨‚è²¨ä¸»æª”.è¨‚å–®è™Ÿç¢¼ = è¨‚è²¨æ˜Žç´°.è¨‚å–®è™Ÿç¢¼ INNER JOIN
+                            å“¡å·¥ ON è¨‚è²¨ä¸»æª”.å“¡å·¥ç·¨è™Ÿ = å“¡å·¥.å“¡å·¥ç·¨è™Ÿ INNER JOIN
+                            ç”¢å“è³‡æ–™ ON è¨‚è²¨æ˜Žç´°.ç”¢å“ç·¨è™Ÿ = ç”¢å“è³‡æ–™.ç”¢å“ç·¨è™Ÿ INNER JOIN
+                            ä¾›æ‡‰å•† ON ç”¢å“è³‡æ–™.ä¾›æ‡‰å•†ç·¨è™Ÿ = ä¾›æ‡‰å•†.ä¾›æ‡‰å•†ç·¨è™Ÿ INNER JOIN
+                            ç”¢å“é¡žåˆ¥ ON ç”¢å“è³‡æ–™.é¡žåˆ¥ç·¨è™Ÿ = ç”¢å“é¡žåˆ¥.é¡žåˆ¥ç·¨è™Ÿ INNER JOIN
+                            è²¨é‹å…¬å¸ ON è¨‚è²¨ä¸»æª”.é€è²¨æ–¹å¼ = è²¨é‹å…¬å¸.è²¨é‹å…¬å¸ç·¨è™Ÿ

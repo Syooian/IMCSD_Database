@@ -1,10 +1,10 @@
---¥~³¡¦X¨Ö¬d¸ß
+ï»¿--å¤–éƒ¨åˆä½µæŸ¥è©¢
 
---§ä¥X±q¥¼³B²z¹L­q³æªº­û¤u¸ê®Æ
-select e.* from ­q³f¥DÀÉ o right join ­û¤u e on o.­û¤u½s¸¹ = e.­û¤u½s¸¹ where o.­q³æ¸¹½X is null
+--æ‰¾å‡ºå¾žæœªè™•ç†éŽè¨‚å–®çš„å“¡å·¥è³‡æ–™
+select e.* from è¨‚è²¨ä¸»æª” o right join å“¡å·¥ e on o.å“¡å·¥ç·¨è™Ÿ = e.å“¡å·¥ç·¨è™Ÿ where o.è¨‚å–®è™Ÿç¢¼ is null
 
---§ä¥X±q¥¼¤U¹L­q³æªº«È¤á¸ê®Æ
-select c.* from ­q³f¥DÀÉ o right join «È¤á c on c.«È¤á½s¸¹ = o.«È¤á½s¸¹ where o.­q³æ¸¹½X is null
+--æ‰¾å‡ºå¾žæœªä¸‹éŽè¨‚å–®çš„å®¢æˆ¶è³‡æ–™
+select c.* from è¨‚è²¨ä¸»æª” o right join å®¢æˆ¶ c on c.å®¢æˆ¶ç·¨è™Ÿ = o.å®¢æˆ¶ç·¨è™Ÿ where o.è¨‚å–®è™Ÿç¢¼ is null
 
---§ä¥X±q¥¼³Q¶R¹Lªº°Ó«~¸ê®Æ
-select * from ²£«~¸ê®Æ p left join ­q³f©ú²Ó od on od.²£«~½s¸¹ = p.²£«~½s¸¹ where od.²£«~½s¸¹ is null
+--æ‰¾å‡ºå¾žæœªè¢«è²·éŽçš„å•†å“è³‡æ–™
+select * from ç”¢å“è³‡æ–™ p left join è¨‚è²¨æ˜Žç´° od on od.ç”¢å“ç·¨è™Ÿ = p.ç”¢å“ç·¨è™Ÿ where od.ç”¢å“ç·¨è™Ÿ is null

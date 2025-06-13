@@ -1,23 +1,23 @@
-select 'Hello World' as Äæ¦ì
+ï»¿select 'Hello World' as æ¬„ä½
 
---¬d¬İ¯S©wÄæ¦ì
-select «È¤á½s¸¹ from «È¤á
+--æŸ¥çœ‹ç‰¹å®šæ¬„ä½
+select å®¢æˆ¶ç·¨è™Ÿ from å®¢æˆ¶
 
---¦³±ø¥óªº¸ê®Æ¿z¿ï
-select * from «È¤á where ³sµ¸¤HÂ¾ºÙ='¸³¨Æªø'
+--æœ‰æ¢ä»¶çš„è³‡æ–™ç¯©é¸
+select * from å®¢æˆ¶ where é€£çµ¡äººè·ç¨±='è‘£äº‹é•·'
 
---¸ê®Æ²Î­p
-select ³sµ¸¤HÂ¾ºÙ, count(*) as ¤H¼Æ from «È¤á group by ³sµ¸¤HÂ¾ºÙ
+--è³‡æ–™çµ±è¨ˆ
+select é€£çµ¡äººè·ç¨±, count(*) as äººæ•¸ from å®¢æˆ¶ group by é€£çµ¡äººè·ç¨±
 
---¨ú§O¦W
-select «È¤á½s¸¹, ¤½¥q¦WºÙ as Company, ³sµ¸¤H+³sµ¸¤HÂ¾ºÙ as µ¡¤f, ¦a§} from «È¤á
+--å–åˆ¥å
+select å®¢æˆ¶ç·¨è™Ÿ, å…¬å¸åç¨± as Company, é€£çµ¡äºº+é€£çµ¡äººè·ç¨± as çª—å£, åœ°å€ from å®¢æˆ¶
 
---¼Æ­È¹Bºâ
-select ­q³æ¸¹½X, ²£«~½s¸¹, ³æ»ù as °â»ù, ¼Æ¶q as ÁÊ¶R¶q, ³æ»ù*¼Æ¶q*(1-§é¦©) as ¤p­p from ­q³f©ú²Ó
+--æ•¸å€¼é‹ç®—
+select è¨‚å–®è™Ÿç¢¼, ç”¢å“ç·¨è™Ÿ, å–®åƒ¹ as å”®åƒ¹, æ•¸é‡ as è³¼è²·é‡, å–®åƒ¹*æ•¸é‡*(1-æŠ˜æ‰£) as å°è¨ˆ from è¨‚è²¨æ˜ç´°
 
---¤é´Á®É¶¡¹Bºâ
-select ­û¤u½s¸¹, ©m¦W, ¥X¥Í¤é´Á, 
-	datediff(year, ¥X¥Í¤é´Á, getdate()) as ¦~ÄÖ, 
-	datediff(year, ¶±¥Î¤é´Á, getdate()) as ¦~¸ê,
-	datediff(year, ¥X¥Í¤é´Á, ¶±¥Î¤é´Á) as ¤JÂ¾¦~ÄÖ
-	from ­û¤u
+--æ—¥æœŸæ™‚é–“é‹ç®—
+select å“¡å·¥ç·¨è™Ÿ, å§“å, å‡ºç”Ÿæ—¥æœŸ, 
+	datediff(year, å‡ºç”Ÿæ—¥æœŸ, getdate()) as å¹´é½¡, 
+	datediff(year, é›‡ç”¨æ—¥æœŸ, getdate()) as å¹´è³‡,
+	datediff(year, å‡ºç”Ÿæ—¥æœŸ, é›‡ç”¨æ—¥æœŸ) as å…¥è·å¹´é½¡
+	from å“¡å·¥

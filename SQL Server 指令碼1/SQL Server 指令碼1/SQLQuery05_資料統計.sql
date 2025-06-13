@@ -1,31 +1,31 @@
---»E¦X¨ç¼Æ
+ï»¿--èšåˆå‡½æ•¸
 
 --count()
-select count(­û¤u½s¸¹) as ­û¤u¤H¼Æ from ­û¤u
+select count(å“¡å·¥ç·¨è™Ÿ) as å“¡å·¥äººæ•¸ from å“¡å·¥
 
-select count(*) ­q³æÁ`¼Æ from ­q³f¥DÀÉ
+select count(*) è¨‚å–®ç¸½æ•¸ from è¨‚è²¨ä¸»æª”
 
-select count(°e³f¤é´Á) ¤w¥X³f­q³æµ§¼Æ from ­q³f¥DÀÉ
+select count(é€è²¨æ—¥æœŸ) å·²å‡ºè²¨è¨‚å–®ç­†æ•¸ from è¨‚è²¨ä¸»æª”
 
---¥¼¥X³f­q³æµ§¼Æ
-select count(*) ¥¼¥X³f­q³æµ§¼Æ from ­q³f¥DÀÉ where °e³f¤é´Á is null
+--æœªå‡ºè²¨è¨‚å–®ç­†æ•¸
+select count(*) æœªå‡ºè²¨è¨‚å–®ç­†æ•¸ from è¨‚è²¨ä¸»æª” where é€è²¨æ—¥æœŸ is null
 
 --sum()
-select sum(®w¦s¶q) as Á`®w¦s¶q from ²£«~¸ê®Æ
+select sum(åº«å­˜é‡) as ç¸½åº«å­˜é‡ from ç”¢å“è³‡æ–™
 
-select *, ³æ»ù*¼Æ¶q*(1-§é¦©) as ¤p­p from ­q³f©ú²Ó
+select *, å–®åƒ¹*æ•¸é‡*(1-æŠ˜æ‰£) as å°è¨ˆ from è¨‚è²¨æ˜ç´°
 
-select ­q³æ¸¹½X, sum(³æ»ù*¼Æ¶q*(1-§é¦©)) as ­q³æÁ`ª÷ÃB from ­q³f©ú²Ó group by ­q³æ¸¹½X
+select è¨‚å–®è™Ÿç¢¼, sum(å–®åƒ¹*æ•¸é‡*(1-æŠ˜æ‰£)) as è¨‚å–®ç¸½é‡‘é¡ from è¨‚è²¨æ˜ç´° group by è¨‚å–®è™Ÿç¢¼
 
-select sum(³æ»ù*¼Æ¶q*(1-§é¦©)) as ¾ú¦~Àç·~ÃB from ­q³f©ú²Ó
+select sum(å–®åƒ¹*æ•¸é‡*(1-æŠ˜æ‰£)) as æ­·å¹´ç‡Ÿæ¥­é¡ from è¨‚è²¨æ˜ç´°
 
---¥­§¡(avg)
-select avg(³æ»ù) as ¥­§¡³æ»ù from ²£«~¸ê®Æ
+--å¹³å‡(avg)
+select avg(å–®åƒ¹) as å¹³å‡å–®åƒ¹ from ç”¢å“è³‡æ–™
 
---³Ì¤j­È(max)
-select max(³æ»ù) as ³Ì°ª³æ»ù from ²£«~¸ê®Æ
+--æœ€å¤§å€¼(max)
+select max(å–®åƒ¹) as æœ€é«˜å–®åƒ¹ from ç”¢å“è³‡æ–™
 
---³Ì¤p­È(min)
-select min(³æ»ù) as ³Ì§C³æ»ù from ²£«~¸ê®Æ
+--æœ€å°å€¼(min)
+select min(å–®åƒ¹) as æœ€ä½å–®åƒ¹ from ç”¢å“è³‡æ–™
 
-select Ãş§O½s¸¹, sum(³æ»ù) ³æ»ùÁ`©M, avg(³æ»ù) ³æ»ù¥­§¡, max(³æ»ù) ³Ì°ª³æ»ù, min(³æ»ù) as ³Ì§C³æ»ù, count(*) ²£«~¤ñ¼Æ from ²£«~¸ê®Æ group by Ãş§O½s¸¹
+select é¡åˆ¥ç·¨è™Ÿ, sum(å–®åƒ¹) å–®åƒ¹ç¸½å’Œ, avg(å–®åƒ¹) å–®åƒ¹å¹³å‡, max(å–®åƒ¹) æœ€é«˜å–®åƒ¹, min(å–®åƒ¹) as æœ€ä½å–®åƒ¹, count(*) ç”¢å“æ¯”æ•¸ from ç”¢å“è³‡æ–™ group by é¡åˆ¥ç·¨è™Ÿ

@@ -1,20 +1,20 @@
---¬d¸ß­ş¨Ç«È¤á¤U¹L³æ
-select distinct «È¤á½s¸¹
-from ­q³f¥DÀÉ 
---distinct : ²¾°£­«½Æ¶µ
+ï»¿--æŸ¥è©¢å“ªäº›å®¢æˆ¶ä¸‹éå–®
+select distinct å®¢æˆ¶ç·¨è™Ÿ
+from è¨‚è²¨ä¸»æª” 
+--distinct : ç§»é™¤é‡è¤‡é …
 
---¬d¸ß­ş¨Ç²£«~¦³³Q¶R¹L (¨Ì²£«~½s¸¹¤É¾­±Æ§Ç)
-select distinct ²£«~½s¸¹ from ­q³f©ú²Ó order by ²£«~½s¸¹
+--æŸ¥è©¢å“ªäº›ç”¢å“æœ‰è¢«è²·é (ä¾ç”¢å“ç·¨è™Ÿå‡å†ªæ’åº)
+select distinct ç”¢å“ç·¨è™Ÿ from è¨‚è²¨æ˜ç´° order by ç”¢å“ç·¨è™Ÿ
 
---¬d¸ß­ş¨Ç­û¤u¦³³B²z¹L­q³æ (¨Ì­û¤u½s¸¹­°¾­±Æ§Ç)
-select distinct ­û¤u½s¸¹ from ­q³f¥DÀÉ order by ­û¤u½s¸¹ desc
+--æŸ¥è©¢å“ªäº›å“¡å·¥æœ‰è™•ç†éè¨‚å–® (ä¾å“¡å·¥ç·¨è™Ÿé™å†ªæ’åº)
+select distinct å“¡å·¥ç·¨è™Ÿ from è¨‚è²¨ä¸»æª” order by å“¡å·¥ç·¨è™Ÿ desc
 
---¬İ«e100µ§¸ê®Æ
-select top 100 * from ­q³f©ú²Ó order by ¼Æ¶q desc
+--çœ‹å‰100ç­†è³‡æ–™
+select top 100 * from è¨‚è²¨æ˜ç´° order by æ•¸é‡ desc
 
---¬İ«e100µ§¸ê®Æ
-select top 100 with ties * from ­q³f©ú²Ó order by ¼Æ¶q desc
---with ties : §ä¨ì²Ä100µ§«á®É¡A·|¦A©¹«á§ä¦pªG¦³¬Û¦P±Æ§Çªº«h¤@¨Ö¦C¤J
+--çœ‹å‰100ç­†è³‡æ–™
+select top 100 with ties * from è¨‚è²¨æ˜ç´° order by æ•¸é‡ desc
+--with ties : æ‰¾åˆ°ç¬¬100ç­†å¾Œæ™‚ï¼Œæœƒå†å¾€å¾Œæ‰¾å¦‚æœæœ‰ç›¸åŒæ’åºçš„å‰‡ä¸€ä½µåˆ—å…¥
 
---¬İ«e10%µ§¸ê®Æ
-select top 10 percent with ties * from ­q³f©ú²Ó
+--çœ‹å‰10%ç­†è³‡æ–™
+select top 10 percent with ties * from è¨‚è²¨æ˜ç´°

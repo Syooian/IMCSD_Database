@@ -1,41 +1,41 @@
---Inner Join¡G¤º³¡¦X¨Ö
+ï»¿--Inner Joinï¼šå…§éƒ¨åˆä½µ
 
-select * from ­q³f©ú²Ó OD inner join ²£«~¸ê®Æ P on OD.²£«~½s¸¹ = P.²£«~½s¸¹
+select * from è¨‚è²¨æ˜ç´° OD inner join ç”¢å“è³‡æ–™ P on OD.ç”¢å“ç·¨è™Ÿ = P.ç”¢å“ç·¨è™Ÿ
 
---°Ó·~ÅŞ¿è¡G©w»ù>=°â»ù=>¶i»ù
-select OD.­q³æ¸¹½X, OD.²£«~½s¸¹, P.²£«~, OD.³æ»ù °â»ù, P.³æ»ù ©w»ù, (P.³æ»ù-OD.³æ»ù) as »ù®t, (p.³æ»ù-od.³æ»ù)*od.¼Æ¶q
-from ­q³f©ú²Ó OD inner join ²£«~¸ê®Æ P on OD.²£«~½s¸¹ = P.²£«~½s¸¹
+--å•†æ¥­é‚è¼¯ï¼šå®šåƒ¹>=å”®åƒ¹=>é€²åƒ¹
+select OD.è¨‚å–®è™Ÿç¢¼, OD.ç”¢å“ç·¨è™Ÿ, P.ç”¢å“, OD.å–®åƒ¹ å”®åƒ¹, P.å–®åƒ¹ å®šåƒ¹, (P.å–®åƒ¹-OD.å–®åƒ¹) as åƒ¹å·®, (p.å–®åƒ¹-od.å–®åƒ¹)*od.æ•¸é‡
+from è¨‚è²¨æ˜ç´° OD inner join ç”¢å“è³‡æ–™ P on OD.ç”¢å“ç·¨è™Ÿ = P.ç”¢å“ç·¨è™Ÿ
 
-select OD.­q³æ¸¹½X, OD.²£«~½s¸¹, C.Ãş§O¦WºÙ, P.²£«~, OD.³æ»ù °â»ù, P.³æ»ù ©w»ù, (P.³æ»ù-OD.³æ»ù) as »ù®t, (p.³æ»ù-od.³æ»ù)*od.¼Æ¶q
-from ­q³f©ú²Ó OD	
-inner join ²£«~¸ê®Æ P on OD.²£«~½s¸¹ = P.²£«~½s¸¹
-inner join ²£«~Ãş§O C on P.Ãş§O½s¸¹ = C.Ãş§O½s¸¹
-
-select 
-	OD.­q³æ¸¹½X, 
-	OD.²£«~½s¸¹, 
-	C.Ãş§O¦WºÙ, 
-	P.²£«~, 
-	OD.³æ»ù °â»ù, 
-	P.³æ»ù ©w»ù, 
-	P.³æ»ù-OD.³æ»ù as »ù®t, 
-	(p.³æ»ù-od.³æ»ù) * od.¼Æ¶q, 
-	S.¨ÑÀ³°Ó,
-	o.¦¬³f¤H,
-	o.­q³æ¤é´Á
-from ­q³f©ú²Ó OD	
-inner join ²£«~¸ê®Æ P on OD.²£«~½s¸¹ = P.²£«~½s¸¹
-inner join ²£«~Ãş§O C on P.Ãş§O½s¸¹ = C.Ãş§O½s¸¹
-inner join ¨ÑÀ³°Ó S on S.¨ÑÀ³°Ó½s¸¹ = P.¨ÑÀ³°Ó½s¸¹
-inner join ­q³f¥DÀÉ O on od.­q³æ¸¹½X = o.­q³æ¸¹½X
+select OD.è¨‚å–®è™Ÿç¢¼, OD.ç”¢å“ç·¨è™Ÿ, C.é¡åˆ¥åç¨±, P.ç”¢å“, OD.å–®åƒ¹ å”®åƒ¹, P.å–®åƒ¹ å®šåƒ¹, (P.å–®åƒ¹-OD.å–®åƒ¹) as åƒ¹å·®, (p.å–®åƒ¹-od.å–®åƒ¹)*od.æ•¸é‡
+from è¨‚è²¨æ˜ç´° OD	
+inner join ç”¢å“è³‡æ–™ P on OD.ç”¢å“ç·¨è™Ÿ = P.ç”¢å“ç·¨è™Ÿ
+inner join ç”¢å“é¡åˆ¥ C on P.é¡åˆ¥ç·¨è™Ÿ = C.é¡åˆ¥ç·¨è™Ÿ
 
 select 
-	O.­û¤u½s¸¹, 
-	e.©m¦W, 
-	e.¶±¥Î¤é´Á, 
-	datediff(year, e.¶±¥Î¤é´Á, getdate()) ¦~¸ê,
-	count(*) ­q³æ³B²zÁ`¼Æ,
-	count(*) / datediff(year, e.¶±¥Î¤é´Á, getdate()) ¨C¦~¥­§¡³B²z³æ¼Æ
-from ­q³f¥DÀÉ O inner join ­û¤u E on o.­û¤u½s¸¹ = e.­û¤u½s¸¹ group by o.­û¤u½s¸¹, e.©m¦W, e.¶±¥Î¤é´Á
+	OD.è¨‚å–®è™Ÿç¢¼, 
+	OD.ç”¢å“ç·¨è™Ÿ, 
+	C.é¡åˆ¥åç¨±, 
+	P.ç”¢å“, 
+	OD.å–®åƒ¹ å”®åƒ¹, 
+	P.å–®åƒ¹ å®šåƒ¹, 
+	P.å–®åƒ¹-OD.å–®åƒ¹ as åƒ¹å·®, 
+	(p.å–®åƒ¹-od.å–®åƒ¹) * od.æ•¸é‡, 
+	S.ä¾›æ‡‰å•†,
+	o.æ”¶è²¨äºº,
+	o.è¨‚å–®æ—¥æœŸ
+from è¨‚è²¨æ˜ç´° OD	
+inner join ç”¢å“è³‡æ–™ P on OD.ç”¢å“ç·¨è™Ÿ = P.ç”¢å“ç·¨è™Ÿ
+inner join ç”¢å“é¡åˆ¥ C on P.é¡åˆ¥ç·¨è™Ÿ = C.é¡åˆ¥ç·¨è™Ÿ
+inner join ä¾›æ‡‰å•† S on S.ä¾›æ‡‰å•†ç·¨è™Ÿ = P.ä¾›æ‡‰å•†ç·¨è™Ÿ
+inner join è¨‚è²¨ä¸»æª” O on od.è¨‚å–®è™Ÿç¢¼ = o.è¨‚å–®è™Ÿç¢¼
 
-select ­û¤u½s¸¹, count(*) from ­q³f¥DÀÉ group by ­û¤u½s¸¹
+select 
+	O.å“¡å·¥ç·¨è™Ÿ, 
+	e.å§“å, 
+	e.é›‡ç”¨æ—¥æœŸ, 
+	datediff(year, e.é›‡ç”¨æ—¥æœŸ, getdate()) å¹´è³‡,
+	count(*) è¨‚å–®è™•ç†ç¸½æ•¸,
+	count(*) / datediff(year, e.é›‡ç”¨æ—¥æœŸ, getdate()) æ¯å¹´å¹³å‡è™•ç†å–®æ•¸
+from è¨‚è²¨ä¸»æª” O inner join å“¡å·¥ E on o.å“¡å·¥ç·¨è™Ÿ = e.å“¡å·¥ç·¨è™Ÿ group by o.å“¡å·¥ç·¨è™Ÿ, e.å§“å, e.é›‡ç”¨æ—¥æœŸ
+
+select å“¡å·¥ç·¨è™Ÿ, count(*) from è¨‚è²¨ä¸»æª” group by å“¡å·¥ç·¨è™Ÿ

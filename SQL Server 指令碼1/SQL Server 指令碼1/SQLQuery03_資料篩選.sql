@@ -1,25 +1,25 @@
---¸ê®Æ¿z¿ï
-select * from «È¤á where ³sµ¸¤HÂ¾ºÙ = '¸³¨Æªø'
+ï»¿--è³‡æ–™ç¯©é¸
+select * from å®¢æˆ¶ where é€£çµ¡äººè·ç¨± = 'è‘£äº‹é•·'
 
-select * from «È¤á where ¤½¥q¦WºÙ = '¥@¨¹'
+select * from å®¢æˆ¶ where å…¬å¸åç¨± = 'ä¸–é‚¦'
 
-select * from «È¤á where «È¤á½s¸¹ = 'BERGS'
+select * from å®¢æˆ¶ where å®¢æˆ¶ç·¨è™Ÿ = 'BERGS'
 
---¬d1994¦~¥H«á¨ìÂ¾ªº­û¤u
-select * from ­û¤u where ¶±¥Î¤é´Á>= '1994/1/1'
-select * from ­û¤u where year(¶±¥Î¤é´Á) >= '1994'
+--æŸ¥1994å¹´ä»¥å¾Œåˆ°è·çš„å“¡å·¥
+select * from å“¡å·¥ where é›‡ç”¨æ—¥æœŸ>= '1994/1/1'
+select * from å“¡å·¥ where year(é›‡ç”¨æ—¥æœŸ) >= '1994'
 
---¬d¸ß²£«~®w¦s¶q¬°0¥B©|¥¼¤U¬[
-select * from ²£«~¸ê®Æ where ®w¦s¶q = 0 and ¤£¦A¾P°â = 0
+--æŸ¥è©¢ç”¢å“åº«å­˜é‡ç‚º0ä¸”å°šæœªä¸‹æ¶
+select * from ç”¢å“è³‡æ–™ where åº«å­˜é‡ = 0 and ä¸å†éŠ·å”® = 0
 
---¬d¸ß²£«~¦w¥ş¦s¶q¤p©ó10
-select * from ²£«~¸ê®Æ where ¦w¥ş¦s¶q < 10
+--æŸ¥è©¢ç”¢å“å®‰å…¨å­˜é‡å°æ–¼10
+select * from ç”¢å“è³‡æ–™ where å®‰å…¨å­˜é‡ < 10
 
---¬d¸ß­ş¨Ç²£«~®w¦s¤p©ó¦w¥ş¦s¶q
-select * from ²£«~¸ê®Æ where ®w¦s¶q < ¦w¥ş¦s¶q
+--æŸ¥è©¢å“ªäº›ç”¢å“åº«å­˜å°æ–¼å®‰å…¨å­˜é‡
+select * from ç”¢å“è³‡æ–™ where åº«å­˜é‡ < å®‰å…¨å­˜é‡
 
---­ş¨Ç²£«~»İ­n±ÄÁÊ
-select * from ²£«~¸ê®Æ where ®w¦s¶q+¤w­qÁÊ¶q < ¦w¥ş¦s¶q
+--å“ªäº›ç”¢å“éœ€è¦æ¡è³¼
+select * from ç”¢å“è³‡æ–™ where åº«å­˜é‡+å·²è¨‚è³¼é‡ < å®‰å…¨å­˜é‡
 
---§ä¥X©|¥¼¥X³fªº­q³æ
-select * from ­q³f¥DÀÉ where °e³f¤é´Á is null
+--æ‰¾å‡ºå°šæœªå‡ºè²¨çš„è¨‚å–®
+select * from è¨‚è²¨ä¸»æª” where é€è²¨æ—¥æœŸ is null

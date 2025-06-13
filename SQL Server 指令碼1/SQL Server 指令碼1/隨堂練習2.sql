@@ -1,51 +1,51 @@
---�b�i���u�j��ƪ�����X�Ҧ��k���u����ưO���C
-select * from ���u where �٩I = '�p�j'
+﻿--在【員工】資料表中找出所有女員工的資料記錄。
+select * from 員工 where 稱呼 = '小姐'
 
---�b�i���u�j��ƪ�����X�Ҧ��b1968�~(�t)�H��X�ͪ���ưO���C 
-select * from ���u where year(�X�ͤ��) >= 1968
+--在【員工】資料表中找出所有在1968年(含)以後出生的資料記錄。 
+select * from 員工 where year(出生日期) >= 1968
 
---�b�i�q�f�D�ɡj��ƪ���X�e�f���������x�_���ΰ���������ưO���C 
---select * from �q�f�D�� where �e�f�a�} like '[�x�_����]%' --X�A����k���w�@�Ӧr
-select * from �q�f�D�� where �e�f�a�} like '�x�_��%' or �e�f�a�} like '������%' --O
-select * from �q�f�D�� where �e�f�a�} like '%�x%�_%��%' or �e�f�a�} like '%�O%�_%��%' or �e�f�a�} like '%��%��%��%' --O
-select * from �q�f�D�� where �e�f�a�} in ('�x�_��', '�O�_��', '������') --�h�ӭȮɨϥΡA�����i�μҽk�d��
+--在【訂貨主檔】資料表找出送貨的城市為台北市及高雄市的資料記錄。 
+--select * from 訂貨主檔 where 送貨地址 like '[台北高雄]%' --X，此方法限定一個字
+select * from 訂貨主檔 where 送貨地址 like '台北市%' or 送貨地址 like '高雄市%' --O
+select * from 訂貨主檔 where 送貨地址 like '%台%北%市%' or 送貨地址 like '%臺%北%市%' or 送貨地址 like '%高%雄%市%' --O
+select * from 訂貨主檔 where 送貨地址 in ('台北市', '臺北市', '高雄市') --多個值時使用，但不可用模糊查詢
 
---�b�i���~��ơj��ƪ�����X�w�s�q�̦h���e6�W��ưO���C 
-select top 6 with ties * from ���~��� order by �w�s�q desc
+--在【產品資料】資料表中找出庫存量最多的前6名資料記錄。 
+select top 6 with ties * from 產品資料 order by 庫存量 desc
 
---�b�i�q�f���ӡj��ƪ���X�q�渹�X10847�@�]�t���ǲ��~�C 
-select ���~�s�� from �q�f���� where �q�渹�X = 10847
+--在【訂貨明細】資料表找出訂單號碼10847共包含哪些產品。 
+select 產品編號 from 訂貨明細 where 訂單號碼 = 10847
 
---�b�i�q�f���ӡj��ƪ���X�q�椤�]�t�W�L5�ز��~����ưO���C 
-select �q�渹�X, count(*) �ƶq from �q�f���� group by �q�渹�X having count(*) >= 5
+--在【訂貨明細】資料表找出訂單中包含超過5種產品的資料記錄。 
+select 訂單號碼, count(*) 數量 from 訂貨明細 group by 訂單號碼 having count(*) >= 5
 
---�p��i���~��ơj��ƪ������O����2�����~��ƥ�������C 
-select avg(���) ������� from ���~��� where ���O�s�� = 2
+--計算【產品資料】資料表中類別號為2的產品資料平均單價。 
+select avg(單價) 平均單價 from 產品資料 where 類別編號 = 2
 
---�b�i���~��ơj��ƪ�����X�w�s�q�p��w���s�q�A�B�|���i����ʪ����~��ưO���C 
-select * from ���~��� where �w�s�q < �w���s�q and �w�q�ʶq = 0
+--在【產品資料】資料表中找出庫存量小於安全存量，且尚未進行採購的產品資料記錄。 
+select * from 產品資料 where 庫存量 < 安全存量 and 已訂購量 = 0
 
---�b�i�Ȥ�j��ƪ�����X���q�W�٥]�t�u�t�v�B�u�͡v�B�u���v�B�u�ѡv�B�u���v�B�u���v�B�u���v�B�u�~�v�B�u�ߡv���r����ưO���C 
-select * from �Ȥ� where ���q�W�� like '%[�t�ͱ��Ѥ������~��]%'
+--在【客戶】資料表中找出公司名稱包含「川」、「生」、「捷」、「天」、「中」、「社」、「材」、「業」、「立」等字的資料記錄。 
+select * from 客戶 where 公司名稱 like '%[川生捷天中社材業立]%'
 
---�b�A������ƪ�����X�q�ʲ��~�ƶq����20~30�󪺸�ưO���C 
-select �q�渹�X, sum(�ƶq) Total from �q�f���� group by �q�渹�X having sum(�ƶq) between 20 and 30 --?
-select * from �q�f���� where �ƶq between 20 and 30 --O
+--在適當的資料表中找出訂購產品數量介於20~30件的資料記錄。 
+select 訂單號碼, sum(數量) Total from 訂貨明細 group by 訂單號碼 having sum(數量) between 20 and 30 --?
+select * from 訂貨明細 where 數量 between 20 and 30 --O
 
---�b�i�q�f�D�ɡj��ƪ�����X�|�����e�f������O����ơC 
-select * from �q�f�D�� where �e�f��� is null
+--在【訂貨主檔】資料表中找出尚未有送貨日期的記錄資料。 
+select * from 訂貨主檔 where 送貨日期 is null
 
---�b�i�q�f���ӡj��ƪ�����ܥX�q�渹�X10263�Ҧ����~������p�p�C 
---select * from �q�f���� where �q�渹�X = 10263
-select ���~�s��, ���, �ƶq, �馩, (���*�ƶq*(1-�馩)) �p�p from �q�f���� where �q�渹�X = 10263
+--在【訂貨明細】資料表中顯示出訂單號碼10263所有產品的價格小計。 
+--select * from 訂貨明細 where 訂單號碼 = 10263
+select 產品編號, 單價, 數量, 折扣, (單價*數量*(1-折扣)) 小計 from 訂貨明細 where 訂單號碼 = 10263
 
---�Q�Ρi���~��ơj��ƪ���ơA�έp�X�C�@�Ө����ӦU���ѤF�X�˲��~�C 
---select * from ���~��� order by �����ӽs��
-select �����ӽs��, count(���~�s��) ���Ѳ��~�ƶq from ���~��� group by �����ӽs��
+--利用【產品資料】資料表資料，統計出每一個供應商各提供了幾樣產品。 
+--select * from 產品資料 order by 供應商編號
+select 供應商編號, count(產品編號) 提供產品數量 from 產品資料 group by 供應商編號
 
---�Q�Ρi�q�f�D�ɡj��ƪ���ơA�έp�X�C�@��Ȥ�Q�C�@����u�ҪA�Ȧ��ơC 
---select * from �q�f�D�� order by �Ȥ�s��
-select �Ȥ�s��, ���u�s��, count(���u�s��) as �Q�A�Ȧ��� from �q�f�D�� group by �Ȥ�s��, ���u�s�� order by �Ȥ�s��
+--利用【訂貨主檔】資料表資料，統計出每一位客戶被每一位員工所服務次數。 
+--select * from 訂貨主檔 order by 客戶編號
+select 客戶編號, 員工編號, count(員工編號) as 被服務次數 from 訂貨主檔 group by 客戶編號, 員工編號 order by 客戶編號
 
---�Q�Ρi�q�f���ӡj��ƪ���ơA�έp�X�U���ӫ~����������P�����P��ƶq�A�öȦC�X�����P��ƶq�j��10����ơA�B�N��ƨ̲��~�s���Ѥp��j�ƧǡC
-select ���~�s��, avg(���) as �������, avg(�ƶq) as �����P��ƶq from �q�f���� group by ���~�s�� having avg(�ƶq) > 10 order by ���~�s��
+--利用【訂貨明細】資料表資料，統計出各項商品的平均單價與平均銷售數量，並僅列出平均銷售數量大於10的資料，且將資料依產品編號由小到大排序。
+select 產品編號, avg(單價) as 平均單價, avg(數量) as 平均銷售數量 from 訂貨明細 group by 產品編號 having avg(數量) > 10 order by 產品編號
