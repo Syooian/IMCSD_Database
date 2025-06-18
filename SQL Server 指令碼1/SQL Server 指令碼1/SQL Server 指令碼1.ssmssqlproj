@@ -133,6 +133,12 @@
           <AssociatedConnUserName />
           <FullPath>SQLQuery17_Update.sql</FullPath>
         </FileNode>
+        <FileNode Name="SQLQuery21_CreateTable.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery21_CreateTable.sql</FullPath>
+        </FileNode>
         <FileNode Name="隨堂練習2.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
