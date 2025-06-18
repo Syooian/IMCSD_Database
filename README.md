@@ -29,3 +29,6 @@
     <li>nchar：固定長度字串，PK建議使用</li>
     <li>nvarchar：變動長度字串</li>
 </ul>
+
+Colume Level：針對欄位做描述
+Table Level：針對資料表做描述
