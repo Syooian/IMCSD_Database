@@ -170,10 +170,22 @@
           <FullPath>21DDL_table.sql</FullPath>
         </FileNode>
         <FileNode Name="22DDL_alter.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>22DDL_alter.sql</FullPath>
+        </FileNode>
+        <FileNode Name="23DDL_drop.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>23DDL_drop.sql</FullPath>
+        </FileNode>
+        <FileNode Name="24GO.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
-          <FullPath>22DDL_alter.sql</FullPath>
+          <FullPath>24GO.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
