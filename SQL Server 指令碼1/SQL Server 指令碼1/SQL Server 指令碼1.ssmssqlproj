@@ -133,23 +133,17 @@
           <AssociatedConnUserName />
           <FullPath>SQLQuery17_Update.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery21_CreateTable.sql">
+        <FileNode Name="SQLQuery21_Create.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery21_CreateTable.sql</FullPath>
+          <FullPath>SQLQuery21_Create.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery21_DeleteTable.sql">
+        <FileNode Name="SQLQuery22_Alter.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery21_DeleteTable.sql</FullPath>
-        </FileNode>
-        <FileNode Name="SQLQuery22_AlterTable.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>SQLQuery22_AlterTable.sql</FullPath>
+          <FullPath>SQLQuery22_Alter.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery23_Drop.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>

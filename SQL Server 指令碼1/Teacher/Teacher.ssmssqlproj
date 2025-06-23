@@ -152,8 +152,8 @@
           <FullPath>19增刪條的問題探討.sql</FullPath>
         </FileNode>
         <FileNode Name="20DDL_CreateDB.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>20DDL_CreateDB.sql</FullPath>
         </FileNode>
@@ -182,10 +182,16 @@
           <FullPath>23DDL_drop.sql</FullPath>
         </FileNode>
         <FileNode Name="24GO.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>24GO.sql</FullPath>
+        </FileNode>
+        <FileNode Name="25T-SQL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>25T-SQL.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

@@ -1,4 +1,7 @@
-﻿--建立資料表
+﻿--建立資料庫
+create database NewStore
+
+--建立資料表
 --MS SQL無法在create table時加入備註
 
 create table [Category](
