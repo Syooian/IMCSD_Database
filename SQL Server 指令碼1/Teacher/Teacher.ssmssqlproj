@@ -157,11 +157,23 @@
           <AssociatedConnUserName />
           <FullPath>20DDL_CreateDB.sql</FullPath>
         </FileNode>
+        <FileNode Name="21DDL_create.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>21DDL_create.sql</FullPath>
+        </FileNode>
         <FileNode Name="21DDL_table.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>21DDL_table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="22DDL_alter.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>22DDL_alter.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

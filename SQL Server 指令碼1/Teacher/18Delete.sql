@@ -4,7 +4,7 @@
 --但可以一次刪除1~N筆資料
 
 delete from 貨運公司
-where 貨運公司名稱=10
+where 貨運公司編號=10
 
 
 delete from 員工
