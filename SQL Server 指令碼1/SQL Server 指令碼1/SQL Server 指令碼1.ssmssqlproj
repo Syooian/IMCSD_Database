@@ -157,11 +157,17 @@
           <AssociatedConnUserName />
           <FullPath>SQLQuery25_T-SQL_變數.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery26_T-SQL_流程控制.sql">
+        <FileNode Name="SQLQuery26_T-SQL_流程控制1.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery26_T-SQL_流程控制.sql</FullPath>
+          <FullPath>SQLQuery26_T-SQL_流程控制1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery27_T-SQL_流程控制2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery27_T-SQL_流程控制2.sql</FullPath>
         </FileNode>
         <FileNode Name="隨堂練習2.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>

@@ -13,7 +13,9 @@ begin
 	print '全票'
 end
 else if @height>=120
+begin
 	print '半票'
+end
 else
 	print '免票'
 
