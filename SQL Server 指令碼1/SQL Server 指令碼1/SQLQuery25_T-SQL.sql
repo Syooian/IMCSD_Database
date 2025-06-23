@@ -33,3 +33,14 @@ print '目前薪水 : ' + cast(@Salary as varchar)
 --指定格式
 declare @Date datetime = '2025-6-23'
 print '今日 : ' + convert(varchar, @Date, 111)
+
+---------------------------------------------------------資料表值變數
+declare @TestTable table(
+	[Name] nvarchar(10),
+	Age int)
+insert into @TestTable values('John', 10)
+select * from @TestTable
+
+--將select出來的值加入倒臨時宣告的表內
+insert into @TestTable select 姓名, DATEDIFF(YEAR, 員工.出生日期, GETDATE())  from 員工
+select * from @TestTable

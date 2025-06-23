@@ -55,14 +55,21 @@ from 訂貨主檔
 where 訂單號碼=10259
 
 print '上訂單的要貨日期是'+ convert(varchar, @dDay, 111)
+-----------------------------------------------------------
 
+declare @myTable table(
+	[name] nvarchar(30),
+	birthday datetime,
+	tel varchar(20),
+	note nvarchar(max)
+)
 
+insert into @myTable values('王小明','2025-6-23','07-8878778','長的很可愛')
 
+insert into @myTable
+select 姓名,出生日期,電話號碼,附註 from 員工
 
-
-
-
-
+select * from @myTable
 
 
 
