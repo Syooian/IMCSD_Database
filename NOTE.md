@@ -41,3 +41,31 @@ dbo：資料庫物件(Database Object)
 ![Comm1](Note/Comm1.jpg "Comm1")
 
 當Function已建立後要修改，須把開頭的create改成alter
+
+---
+
+### MSSQL函數不允許具有副作用的操作（例如 `INSERT`、`UPDATE` 或 `DELETE`）
+```sql
+create function GetOrderID()
+	returns nvarchar(12)
+as
+	begin
+
+	insert into [dbo].[Orders](OrderID) values (@NewOrderID)
+
+	return @NewOrderID
+end
+```
+* **原因：**  
+SQL Server 的函數設計是為了確保純粹性（無副作用），因此不允許執行修改資料的操作。
+
+* **解決方法1：** 改用儲存程序  
+將邏輯移至儲存程序，因為儲存程序允許執行副作用操作。
+
+```sql
+create procedure GetOrderID
+
+```
+
+* **解決方法2：** 函數僅返回值  
+如果必須使用函數，請讓函數僅生成並返回 OrderID，而不執行 INSERT 操作。然後在外部執行 INSERT。
