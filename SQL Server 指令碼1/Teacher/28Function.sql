@@ -65,5 +65,18 @@ end
 -------------------------
 print dbo.fnGetCNameByID('')
 
+---------------------------------------
+--用客戶資料進行關鍵字查詢
+create function fnGetCustomerListByKeyword(@keyword nvarchar(20))
+	returns table
 
+return
+	(select *
+	from 客戶
+	where 公司名稱 like '%'+@keyword+'%' or  連絡人 like '%'+@keyword+'%'
+	 or  連絡人職稱 like '%'+@keyword+'%' or  地址 like '%'+@keyword+'%')
 
+-----------------------------------------------------
+
+select *
+from dbo.fnGetCustomerListByKeyword('市中')
