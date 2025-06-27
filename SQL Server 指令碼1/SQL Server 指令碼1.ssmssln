@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # SQL Server Management Studio Solution File, Format Version 20.00
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SQL Server 指令碼1", "SQL Server 指令碼1\SQL Server 指令碼1.ssmssqlproj", "{79D1E377-94FC-4376-A326-F8E448B1C6C3}"
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "My", "My\My.ssmssqlproj", "{79D1E377-94FC-4376-A326-F8E448B1C6C3}"
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Teacher", "Teacher\Teacher.ssmssqlproj", "{40611838-96D4-40AC-A327-BF6B41E4695E}"
 EndProject
