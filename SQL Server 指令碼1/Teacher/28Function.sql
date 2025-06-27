@@ -36,3 +36,34 @@ end
 --------------------------------
 
 print '交貨期限:' + dbo.fnGetDeadlineByOrderDate('2025-7/20')
+
+------------------------------------------------------------------------
+--用客戶編號查詢公司名稱
+
+alter function fnGetCNameByID(@id char(5))
+	returns varchar(40)
+as
+begin
+
+	if @id='' or @id is null
+		return '請檢查客戶代碼'
+
+
+	declare @CName varchar(40)
+
+	select @CName=公司名稱
+	from 客戶
+	where 客戶編號=@id
+
+	if @CName is null
+		return '查無該客戶資料'
+
+	return @CName
+
+end
+
+-------------------------
+print dbo.fnGetCNameByID('')
+
+
+
