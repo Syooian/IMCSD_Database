@@ -86,6 +86,9 @@ create procedure GetOrderID
 # 觸發程序的執行過程
 insert into 貨運公司( 貨運公司名稱  , 電話 )  values(  '貨運'  , '(08)8210171' )
 
+1. Trigger (Instead Trigger，如果有的話)\
+其所做的動作會完全取代掉後續動作
+自己定義要做的檢查，會先於內建檢查前執行
 1. 內建檢查
     * PK
     * FK
@@ -94,5 +97,5 @@ insert into 貨運公司( 貨運公司名稱  , 電話 )  values(  '貨運'  , '
     * Unique
     * Identity
 2. 自訂檢查
-    * Trigger
+    * Trigger (After Trigger)
 3. 所有檢查都通過後才會執行"Commit"
