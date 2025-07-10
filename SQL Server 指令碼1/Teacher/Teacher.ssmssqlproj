@@ -44,8 +44,8 @@
           <FullPath>01Select.sql</FullPath>
         </FileNode>
         <FileNode Name="02Select.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>02Select.sql</FullPath>
         </FileNode>
@@ -234,6 +234,12 @@
           <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>32Stored Procedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="33Trigger.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>33Trigger.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
