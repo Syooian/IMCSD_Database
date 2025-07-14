@@ -19,6 +19,9 @@ drop table 客戶2
 --停用資料庫 Trigger
 disable trigger readOnlyTable on database
 
+--停用資料庫 Trigger
+enable trigger readOnlyTable on database
+
 
 --停用資料表上的 Trigger
 disable trigger getUpdateDataTable on 客戶

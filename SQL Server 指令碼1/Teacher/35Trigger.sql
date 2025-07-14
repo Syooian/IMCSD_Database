@@ -1,3 +1,12 @@
+--instead trigger
+--每個資料表都可以有:
+--一個 instead of insert trigger
+--一個 instead of update trigger
+--一個 instead of delete trigger
+--但可以有無限多個 after trigger
+
+
+
 select * from 客戶
 
 

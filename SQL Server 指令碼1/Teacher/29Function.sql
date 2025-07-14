@@ -7,6 +7,8 @@
 --(例如202412212015為2024/12/12第2015張訂單的編號)
 --(例如202506270001為2025/6/27第1張訂單的編號)
 
+--建立在GoodStore DB裡
+
 
 create function getOrderID()
 	returns nchar(12)
