@@ -99,3 +99,10 @@ insert into 貨運公司( 貨運公司名稱  , 電話 )  values(  '貨運'  , '
 2. 自訂檢查
     * Trigger (After Trigger)
 3. 所有檢查都通過後才會執行"Commit"
+
+# 預存程序、Function、View的差別
+* 預存程序：可以寫程式，一般是用做比較複雜的操作，單純用來select會有點多此一舉
+* Function：可以return值
+* View：有架構的查詢結果  
+    一個Join過兩個查詢的View，在後面還可以再另外Join其他的查詢  
+![View](Note/20250714_134415.JPG "View")
