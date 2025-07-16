@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "資料插入", "資料插�
 		資料插入\北風_ch.sql = 資料插入\北風_ch.sql
 	EndProjectSection
 EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "2-3評量", "2-3評量\2-3評量.ssmssqlproj", "{F07531B3-6C11-490E-84A8-01E4416C6046}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
@@ -20,7 +22,7 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{79D1E377-94FC-4376-A326-F8E448B1C6C3}.Default|Default.ActiveCfg = Default
 		{40611838-96D4-40AC-A327-BF6B41E4695E}.Default|Default.ActiveCfg = Default
-		{B8DA9102-4D4D-478C-8BB0-4EB8B3768F04}.Default|Default.ActiveCfg = Default
+		{F07531B3-6C11-490E-84A8-01E4416C6046}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
