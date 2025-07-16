@@ -38,8 +38,8 @@
     <LogicalFolder Name="查詢" Type="0" Sorted="true">
       <Items>
         <FileNode Name="01Select.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>01Select.sql</FullPath>
         </FileNode>
@@ -50,8 +50,8 @@
           <FullPath>02Select.sql</FullPath>
         </FileNode>
         <FileNode Name="03Select.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>03Select.sql</FullPath>
         </FileNode>
@@ -68,14 +68,14 @@
           <FullPath>05Select.sql</FullPath>
         </FileNode>
         <FileNode Name="06Select.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>06Select.sql</FullPath>
         </FileNode>
         <FileNode Name="07Practice.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>07Practice.sql</FullPath>
         </FileNode>
@@ -116,8 +116,8 @@
           <FullPath>13Select_SubQuery.sql</FullPath>
         </FileNode>
         <FileNode Name="14Select_order_by.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>14Select_order_by.sql</FullPath>
         </FileNode>
@@ -146,8 +146,8 @@
           <FullPath>18Delete.sql</FullPath>
         </FileNode>
         <FileNode Name="19增刪條的問題探討.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>19增刪條的問題探討.sql</FullPath>
         </FileNode>
