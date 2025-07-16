@@ -22,6 +22,12 @@
     </LogicalFolder>
     <LogicalFolder Name="查詢" Type="0" Sorted="true">
       <Items>
+        <FileNode Name="MySchool.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>MySchool.sql</FullPath>
+        </FileNode>
         <FileNode Name="任務一.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
@@ -33,6 +39,12 @@
           <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>任務二.sql</FullPath>
+        </FileNode>
+        <FileNode Name="任務三.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>任務三.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
