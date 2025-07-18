@@ -177,14 +177,15 @@ CREATE TABLE [Order] (
     ExpectedCheckOutDate datetime NOT NULL,
     Note nvarchar(200) NULL,
     MemberID nchar(5) NOT NULL FOREIGN KEY REFERENCES Member(MemberID),
+    EmployeeID nchar(4)  NULL FOREIGN KEY REFERENCES Employee(EmployeeID),
     PayCode nchar(2) NOT NULL FOREIGN KEY REFERENCES PayType(PayCode),
     StatusCode nchar(1) NOT NULL FOREIGN KEY REFERENCES OrderStatus(StatusCode)
 );
 
 -- 訂單資料
-INSERT INTO [Order] (OrderID, OrderDate, ExpectedCheckInDate, ExpectedCheckOutDate, Note, MemberID, PayCode,StatusCode) VALUES
-(N'R20250715001', '2025-07-15', '2025-08-01', '2025-08-03', N'暑假旅遊', N'A0001', N'01', N'1'),
-(N'R20250715002', '2025-07-15', '2025-08-05', '2025-08-07', N'公司出差', N'A0002', N'02', N'1');
+INSERT INTO [Order] (OrderID, OrderDate, ExpectedCheckInDate, ExpectedCheckOutDate, Note, MemberID, EmployeeID, PayCode,StatusCode) VALUES
+(N'R20250715001', '2025-07-15', '2025-08-01', '2025-08-03', N'暑假旅遊', N'A0001', N'1001', N'01', N'1'),
+(N'R20250715002', '2025-07-15', '2025-08-05', '2025-08-07', N'公司出差', N'A0002', NULL, N'02', N'1');
 
 -- 訂單明細
 CREATE TABLE OrderDetail (
