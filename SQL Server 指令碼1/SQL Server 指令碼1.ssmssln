@@ -10,7 +10,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "資料插入", "資料插入", "{38E52B98-053C-470A-AB13-BDDE6DE2DEC4}"
 	ProjectSection(SolutionItems) = preProject
 		資料插入\dbStudents.sql = 資料插入\dbStudents.sql
+		資料插入\GoodStore.sql = 資料插入\GoodStore.sql
+		資料插入\旅館系統專案素材\HotelSysDB.sql = 資料插入\旅館系統專案素材\HotelSysDB.sql
 		資料插入\北風_ch.sql = 資料插入\北風_ch.sql
+		資料插入\北風_eng.sql = 資料插入\北風_eng.sql
 	EndProjectSection
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "2-3評量", "2-3評量\2-3評量.ssmssqlproj", "{F07531B3-6C11-490E-84A8-01E4416C6046}"
@@ -23,6 +26,7 @@ Global
 		{79D1E377-94FC-4376-A326-F8E448B1C6C3}.Default|Default.ActiveCfg = Default
 		{40611838-96D4-40AC-A327-BF6B41E4695E}.Default|Default.ActiveCfg = Default
 		{F07531B3-6C11-490E-84A8-01E4416C6046}.Default|Default.ActiveCfg = Default
+		{763F0C9C-5171-484D-A32F-C2E9E7A46917}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
