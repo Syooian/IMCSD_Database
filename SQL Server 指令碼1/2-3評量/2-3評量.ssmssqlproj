@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
-<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="2-3評量">
+<SqlWorkbenchSqlProject xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="2-3評量">
   <Items>
     <LogicalFolder Name="連線" Type="2" Sorted="true">
       <Items>
-        <ConnectionNode Name="C501A117:C501A117\user">
+        <ConnectionNode Name="C501A117:DESKTOP-97QFHGR\msn01">
           <Created>2025-07-16T08:31:58.3225627+08:00</Created>
           <Type>SQL</Type>
           <Server>C501A117</Server>
@@ -39,12 +39,6 @@
           <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>任務二.sql</FullPath>
-        </FileNode>
-        <FileNode Name="任務三.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>任務三.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
