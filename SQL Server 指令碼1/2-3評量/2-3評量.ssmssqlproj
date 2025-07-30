@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
-<SqlWorkbenchSqlProject xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="2-3評量">
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="2-3評量">
   <Items>
     <LogicalFolder Name="連線" Type="2" Sorted="true">
       <Items>
-        <ConnectionNode Name="C501A117:DESKTOP-97QFHGR\msn01">
+        <ConnectionNode Name="C501A117:C501A117\user">
           <Created>2025-07-16T08:31:58.3225627+08:00</Created>
           <Type>SQL</Type>
           <Server>C501A117</Server>
@@ -18,7 +18,7 @@
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
           <ApplicationName>Microsoft SQL Server Management Studio - 查詢</ApplicationName>
         </ConnectionNode>
-        <ConnectionNode Name="localhost:DESKTOP-97QFHGR\msn01">
+        <ConnectionNode Name="localhost:C501A117\user">
           <Created>2025-07-23T17:30:13.5526626+08:00</Created>
           <Type>SQL</Type>
           <Server>localhost</Server>
@@ -36,6 +36,12 @@
     </LogicalFolder>
     <LogicalFolder Name="查詢" Type="0" Sorted="true">
       <Items>
+        <FileNode Name="2-3評量.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>2-3評量.sql</FullPath>
+        </FileNode>
         <FileNode Name="MySchool.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
