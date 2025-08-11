@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Version 21
+VisualStudioVersion = 17.14.36301.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "My", "My\My.ssmssqlproj", "{43139B47-CD2F-8348-8B2E-E18A77F0A14D}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Teacher", "Teacher\Teacher.ssmssqlproj", "{4AFAEA6B-3389-7A46-4FCA-6D9FC8104C7D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-3評量", "2-3評量", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		2-3評量\2-3評量.sql = 2-3評量\2-3評量.sql
+		2-3評量\2-3評量.ssmssqlproj = 2-3評量\2-3評量.ssmssqlproj
+		2-3評量\2-3評量題目.docx = 2-3評量\2-3評量題目.docx
+		2-3評量\MySchool.sql = 2-3評量\MySchool.sql
+		2-3評量\任務一.sql = 2-3評量\任務一.sql
+		2-3評量\任務二.sql = 2-3評量\任務二.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "資料插入", "資料插入", "{4834BC5F-FE18-4115-A710-5AD6741EF95F}"
+	ProjectSection(SolutionItems) = preProject
+		資料插入\dbStudents (含科系).sql = 資料插入\dbStudents (含科系).sql
+		資料插入\dbStudents.sql = 資料插入\dbStudents.sql
+		資料插入\dbStudents_MySql1.sql = 資料插入\dbStudents_MySql1.sql
+		資料插入\dbStudents_MySql2 (含科系).sql = 資料插入\dbStudents_MySql2 (含科系).sql
+		資料插入\dbStudents_MySql_從tstudent取值後插入到tstudent2_MySql.sql = 資料插入\dbStudents_MySql_從tstudent取值後插入到tstudent2_MySql.sql
+		資料插入\北風_ch.sql = 資料插入\北風_ch.sql
+		資料插入\北風_ch_MySql.sql = 資料插入\北風_ch_MySql.sql
+		資料插入\北風_eng.sql = 資料插入\北風_eng.sql
+		資料插入\北風_eng_MySql.sql = 資料插入\北風_eng_MySql.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebAPI上課素材", "WebAPI上課素材", "{0E647D54-E39E-462B-B57F-F06D9B3A9BB1}"
+	ProjectSection(SolutionItems) = preProject
+		資料插入\WebAPI上課素材\GoodStoreDB.sql = 資料插入\WebAPI上課素材\GoodStoreDB.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "旅館系統專案素材", "旅館系統專案素材", "{949C7FF9-94FF-46FE-BA4F-C5013DC9105C}"
+	ProjectSection(SolutionItems) = preProject
+		資料插入\旅館系統專案素材\HotelSysDB.sql = 資料插入\旅館系統專案素材\HotelSysDB.sql
+		資料插入\旅館系統專案素材\README.md = 資料插入\旅館系統專案素材\README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43139B47-CD2F-8348-8B2E-E18A77F0A14D}.Default|Default.ActiveCfg = Default
+		{0D43A442-8D8C-4333-B2DD-994DFF18706F}.Default|Default.ActiveCfg = Default
+		{4AFAEA6B-3389-7A46-4FCA-6D9FC8104C7D}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0E647D54-E39E-462B-B57F-F06D9B3A9BB1} = {4834BC5F-FE18-4115-A710-5AD6741EF95F}
+		{949C7FF9-94FF-46FE-BA4F-C5013DC9105C} = {4834BC5F-FE18-4115-A710-5AD6741EF95F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2D9987F-4FAF-4EEA-8483-83E27ABD31D4}
+	EndGlobalSection
+EndGlobal
