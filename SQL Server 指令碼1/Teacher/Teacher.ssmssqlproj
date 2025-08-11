@@ -1,33 +1,17 @@
 <?xml version="1.0"?>
-<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Teacher">
+<SqlWorkbenchSqlProject xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Teacher">
   <Items>
     <LogicalFolder Name="連線" Type="2" Sorted="true">
       <Items>
-        <ConnectionNode Name="C501A117:C501A117\user">
-          <Created>2025-05-09T15:34:22.2843356+08:00</Created>
+        <ConnectionNode Name="localhost:C501A05\user">
+          <Created>2025-08-11T15:38:42.6722017+08:00</Created>
           <Type>SQL</Type>
-          <Server>C501A117</Server>
+          <Server>localhost</Server>
           <UserName />
           <Authentication>Windows 驗證</Authentication>
-          <InitialDB>北風</InitialDB>
+          <InitialDB>Aniwalk</InitialDB>
           <LoginTimeout>30</LoginTimeout>
           <TrustServerCertificate>True</TrustServerCertificate>
-          <HostNameInServerCertificate />
-          <EncryptionOption>True</EncryptionOption>
-          <ExecutionTimeout>0</ExecutionTimeout>
-          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
-          <ApplicationName>Microsoft SQL Server Management Studio - 查詢</ApplicationName>
-        </ConnectionNode>
-        <ConnectionNode Name="C501A117:Syooian">
-          <Created>2025-06-09T13:38:02.8425512+08:00</Created>
-          <Type>SQL</Type>
-          <Server>C501A117</Server>
-          <UserName>Syooian</UserName>
-          <Authentication>SQL</Authentication>
-          <InitialDB>北風</InitialDB>
-          <LoginTimeout>30</LoginTimeout>
-          <TrustServerCertificate>True</TrustServerCertificate>
-          <HostNameInServerCertificate />
           <EncryptionOption>True</EncryptionOption>
           <ExecutionTimeout>0</ExecutionTimeout>
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
@@ -38,26 +22,26 @@
     <LogicalFolder Name="查詢" Type="0" Sorted="true">
       <Items>
         <FileNode Name="01Select.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>01Select.sql</FullPath>
         </FileNode>
         <FileNode Name="02Select.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>02Select.sql</FullPath>
         </FileNode>
         <FileNode Name="03Select.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>03Select.sql</FullPath>
         </FileNode>
         <FileNode Name="04Select.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>04Select.sql</FullPath>
         </FileNode>
@@ -68,212 +52,212 @@
           <FullPath>05Select.sql</FullPath>
         </FileNode>
         <FileNode Name="06Select.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>06Select.sql</FullPath>
         </FileNode>
         <FileNode Name="07Practice.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>07Practice.sql</FullPath>
         </FileNode>
         <FileNode Name="08Select_Join.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>08Select_Join.sql</FullPath>
         </FileNode>
         <FileNode Name="09Select_Join.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>09Select_Join.sql</FullPath>
         </FileNode>
         <FileNode Name="10Select_Join.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>10Select_Join.sql</FullPath>
         </FileNode>
         <FileNode Name="11Select_OuterJoin.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>11Select_OuterJoin.sql</FullPath>
         </FileNode>
         <FileNode Name="12DataType.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>12DataType.sql</FullPath>
         </FileNode>
         <FileNode Name="13Select_SubQuery.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>13Select_SubQuery.sql</FullPath>
         </FileNode>
         <FileNode Name="14Select_order_by.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>14Select_order_by.sql</FullPath>
         </FileNode>
         <FileNode Name="15Practice.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>15Practice.sql</FullPath>
         </FileNode>
         <FileNode Name="16insert .sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>16insert .sql</FullPath>
         </FileNode>
         <FileNode Name="17Update.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>17Update.sql</FullPath>
         </FileNode>
         <FileNode Name="18Delete.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>18Delete.sql</FullPath>
         </FileNode>
         <FileNode Name="19增刪條的問題探討.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>19增刪條的問題探討.sql</FullPath>
         </FileNode>
         <FileNode Name="20DDL_CreateDB.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>20DDL_CreateDB.sql</FullPath>
         </FileNode>
         <FileNode Name="21DDL_create.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>21DDL_create.sql</FullPath>
         </FileNode>
         <FileNode Name="21DDL_table.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>21DDL_table.sql</FullPath>
         </FileNode>
         <FileNode Name="22DDL_alter.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>22DDL_alter.sql</FullPath>
         </FileNode>
         <FileNode Name="23DDL_drop.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>23DDL_drop.sql</FullPath>
         </FileNode>
         <FileNode Name="24GO.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>24GO.sql</FullPath>
         </FileNode>
         <FileNode Name="25T-SQL.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>25T-SQL.sql</FullPath>
         </FileNode>
         <FileNode Name="26T-SQL.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>26T-SQL.sql</FullPath>
         </FileNode>
         <FileNode Name="27T-SQL.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>27T-SQL.sql</FullPath>
         </FileNode>
         <FileNode Name="28Function.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>28Function.sql</FullPath>
         </FileNode>
         <FileNode Name="29Function.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>29Function.sql</FullPath>
         </FileNode>
         <FileNode Name="30Function.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>30Function.sql</FullPath>
         </FileNode>
         <FileNode Name="31Stored Procedure.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>31Stored Procedure.sql</FullPath>
         </FileNode>
         <FileNode Name="32Stored Procedure.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>32Stored Procedure.sql</FullPath>
         </FileNode>
         <FileNode Name="33Trigger.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>33Trigger.sql</FullPath>
         </FileNode>
         <FileNode Name="34Trigger.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>34Trigger.sql</FullPath>
         </FileNode>
         <FileNode Name="35Trigger.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>35Trigger.sql</FullPath>
         </FileNode>
         <FileNode Name="36Trigger.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>36Trigger.sql</FullPath>
         </FileNode>
         <FileNode Name="37View.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>37View.sql</FullPath>
         </FileNode>
         <FileNode Name="38SetOperations.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>38SetOperations.sql</FullPath>
         </FileNode>
         <FileNode Name="39CTE.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>39CTE.sql</FullPath>
         </FileNode>

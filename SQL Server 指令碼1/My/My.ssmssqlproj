@@ -1,237 +1,206 @@
 <?xml version="1.0"?>
-<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="My">
+<SqlWorkbenchSqlProject xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="My">
   <Items>
     <LogicalFolder Name="連線" Type="2" Sorted="true">
-      <Items>
-        <ConnectionNode Name="C501A117:C501A117\user">
-          <Created>2025-05-09T15:34:22.2843356+08:00</Created>
-          <Type>SQL</Type>
-          <Server>C501A117</Server>
-          <UserName />
-          <Authentication>Windows 驗證</Authentication>
-          <InitialDB>北風</InitialDB>
-          <LoginTimeout>30</LoginTimeout>
-          <TrustServerCertificate>True</TrustServerCertificate>
-          <HostNameInServerCertificate />
-          <EncryptionOption>True</EncryptionOption>
-          <ExecutionTimeout>0</ExecutionTimeout>
-          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
-          <ApplicationName>Microsoft SQL Server Management Studio - 查詢</ApplicationName>
-        </ConnectionNode>
-        <ConnectionNode Name="C501A117:Syooian">
-          <Created>2025-06-09T13:29:42.9881049+08:00</Created>
-          <Type>SQL</Type>
-          <Server>C501A117</Server>
-          <UserName>Syooian</UserName>
-          <Authentication>SQL</Authentication>
-          <InitialDB>dbStudents</InitialDB>
-          <LoginTimeout>30</LoginTimeout>
-          <TrustServerCertificate>True</TrustServerCertificate>
-          <HostNameInServerCertificate />
-          <EncryptionOption>True</EncryptionOption>
-          <ExecutionTimeout>0</ExecutionTimeout>
-          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
-          <ApplicationName>Microsoft SQL Server Management Studio - 查詢</ApplicationName>
-        </ConnectionNode>
-      </Items>
+      <Items />
     </LogicalFolder>
     <LogicalFolder Name="查詢" Type="0" Sorted="true">
       <Items>
         <FileNode Name="SQLQuery01.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQuery01.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery02.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQuery02.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery03_資料篩選.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQuery03_資料篩選.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery04.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQuery04.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery05_資料統計.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQuery05_資料統計.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery06_GroupBy.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQuery06_GroupBy.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery08_InnerJoin.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQuery08_InnerJoin.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery09_InnerJoin.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQuery09_InnerJoin.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery10.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQuery10.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery11_OuterJoin.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQuery11_OuterJoin.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery12_DataType.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQuery12_DataType.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery13_子查詢.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQuery13_子查詢.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery14_OrderBy.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQuery14_OrderBy.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery15_Practice.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQuery15_Practice.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery16_Insert.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQuery16_Insert.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery17_Update.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQuery17_Update.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery21_Create.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQuery21_Create.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery22_Alter.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQuery22_Alter.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery23_Drop.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQuery23_Drop.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery25_T-SQL_變數.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQuery25_T-SQL_變數.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery26_T-SQL_流程控制1.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQuery26_T-SQL_流程控制1.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery27_T-SQL_流程控制2.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQuery27_T-SQL_流程控制2.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery28_Function.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQuery28_Function.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery29.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQuery29.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery31_SP.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQuery31_SP.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery32_SP_檢查帳號.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQuery32_SP_檢查帳號.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery33_觸發程序.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQuery33_觸發程序.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery35.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQuery35.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery36.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQuery36.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery37_View.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQuery37_View.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery38_集合運算.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQuery38_集合運算.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery39_CTE遞迴.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQuery39_CTE遞迴.sql</FullPath>
         </FileNode>
         <FileNode Name="隨堂練習2.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A117:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A117</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>隨堂練習2.sql</FullPath>
         </FileNode>
